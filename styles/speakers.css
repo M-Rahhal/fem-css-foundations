@@ -1,0 +1,12 @@
+@import './fonts.css';
+
+
+body {
+    color: #ff7854;
+    background-color: white;
+    font-family: "Inter Bold";
+}
+a {
+    color: #ff7854;
+    text-decoration: none;
+}

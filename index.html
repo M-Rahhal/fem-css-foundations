@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Day</title>
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
-<body>
+
+<body class="container">
     <header>
         <a href="/">CSS Day</a>
-        <div>
+        <div class="nav-links">
             <nav>
                 <ul>
                     <li><a href="#">About</a></li>
@@ -21,9 +24,16 @@
         </div>
     </header>
     <main>
-        <p>CSS Day is a conference for developers who love beautiful websites.</p>
-        <p>4-8 June 2023</p>
-        <button>Buy Tickets <img src="./icons/arrow-right.svg" alt="Right arrow"></button>
+
+        <p class="main-p">CSS Day is a conference for developers who love beautiful websites.</p>
+        <p class="date">4-8 June 2023</p>
+        <div class="button">
+            <button class="first">Buy Tickets <img src=" ./icons/arrow-right.svg" alt="Right arrow"></button>
+            <button class="second">Contact Us </button>
+
+        </div>
     </main>
+    <!-- <div style="display: block; background-color: black; height: 900px;"></div> -->
 </body>
+
 </html>
